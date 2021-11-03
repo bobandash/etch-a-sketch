@@ -3,19 +3,39 @@ body, html {
     margin: 0px;
 }
 
+header{
+    height: 7.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
+    height: 92.5%;
+}
+
+#clear-grid-button{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
+    width: 100px;
+    background-color: lightgreen;
+}
+
+#clear-grid-button:hover{
+    opacity: 80%;
+    transform:scale(1.2);
 }
 
 .boxes{
     width: 6.25%;
-    height: 6.25%;
+    height: 5.78125%;
     outline: 1px solid black;
 }
 
-.boxes:hover{
-    background-color:blue;
+.change-color{
+    background-color: lightblue;
 }

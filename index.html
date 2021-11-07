@@ -6,7 +6,25 @@
     <script src="grid.js" defer></script>
 </head>
 <body>
-    <header><button id = "clear-grid-button">Clear Grid</button></header>
+    <header id = "project-title">Sketch a Thing</div></header>
+    <div id = "sidebar">
+        <button id = "draw-button">Draw</button>
+        <br />
+        <button id = "erase-button">Erase</button>
+        <br />
+        <button id = "clear-grid-button">Clear</button>
+        <br />
+        <button id = "color-button" >Color</button>
+        <br />
+        <button id ="random-colors-button">Random Colors</button>
+        <div id = "widthDiv">
+        Width<input type="range" id = "row-boxes-slider" min="1" max="100" value="16">
+        </div>
+        <br />
+        <div id = "heightDiv">
+        Height<input type="range" id = "column-boxes-slider" min="1" max="100" value="16">
+        </div>
+    </div>
     <div id = "container">
     </div>
 </body>
